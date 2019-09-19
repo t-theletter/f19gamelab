@@ -15,7 +15,8 @@ public class MoreMovement : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () 
-	{
+	
+
 		transform.localScale = new Vector2(Mathf.Sin(Time.time), 1);
 		transform.Rotate(0,0,1*speed);
 		
